@@ -1,0 +1,30 @@
+
+
+.home {
+ 	margin: 200px auto;
+ 	text-align: center;
+ 	color: white;
+ }
+
+ .eighteen {
+ 	font-size: 150px;
+ 	animation: growth 5s Infinite ;
+ 
+ }
+
+ @keyframes growth {
+  0% {font-size: 250px;}
+  25% {font-size: 350px;}
+  50% {font-size: 250px;}
+  75% {font-size: 350px;}
+  100% {font-size: 250px;}
+}
+
+ #sky-outside {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index:-100;
+}
